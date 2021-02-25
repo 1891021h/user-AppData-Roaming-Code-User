@@ -1,0 +1,72 @@
+{
+	// Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	"Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	},
+	"definition": {
+		"prefix": "def",
+		"body": [
+			"<div class=\"def\">",
+			"<p class=\"def-text\">",
+			"$1",
+			"</p>",
+			"</div>"
+		],
+		"description": "Write a definition"
+	},
+	"example": {
+		"prefix": "eg",
+		"body": [
+			"<div class=\"ex\">例$1</div>",
+			"<div class=\"ex-text\">",
+			"$2",
+			"</div>"
+		],
+		"description": "Write a example"
+	},
+	"theorem": {
+		"prefix": "theo",
+		"body": [
+			"<div class=\"theorem\">",
+			"<span class=\"theorem-title\">定理$1</span>",
+			"<p>",
+			"$2",
+			"</p>",
+			"</div>"
+		],
+		"description": "Write a theorem"
+	},
+	"ex-problem": {
+		"prefix": "ex",
+		"body": [
+			"<div class=\"ex\">",
+			"<span class=\"ex-circle1\">例</span>",
+			"<p>",
+			"$1",
+			"</p>",
+			"</div>"
+		],
+		"description": "Write a example problem"
+	},
+	"problem": {
+		"prefix": "pr",
+		"body": [
+			"<div class=\"prob\">",
+			"<span class=\"prob-label\">れんしゅう</span>",
+			"<p>",
+			"$1",
+			"</p>",
+			"</div>"
+		],
+		"description": "Write a problem"
+	}
+}
